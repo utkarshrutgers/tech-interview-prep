@@ -1,9 +1,0 @@
-import numpy as np
-n = int(input().strip())
-
-numbers = list(map(int , input().split()))
-
-print(np.mean(numbers))
-print(np.median(numbers))
-from scipy.stats import mode
-print(int(mode(numbers)[0]))
