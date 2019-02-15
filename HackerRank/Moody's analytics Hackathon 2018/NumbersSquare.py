@@ -31,7 +31,7 @@ def numbersSquare(n, s):
             for j in range(i-1,-1,-1):
                 rs[i][j] = rs[i][j+1]+1
     for i in range(0,n):
-        str1 = ' '.join(map(str,rs[i]))
+        str1 = ' '.join(map(str,rs[i]))     #------> HOW TO PRINT LIST AS STRING
         print(str1)
         
 if __name__ == '__main__':
